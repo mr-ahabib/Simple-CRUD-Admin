@@ -1,0 +1,47 @@
+.product-card {
+    position: relative;
+    border: 1px solid #1e1b1b;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    max-width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1); 
+}
+
+
+.product-card button {
+    background-color: #fff;
+    color: #007bff; 
+    border: 1px solid #8e9aa6; 
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+.product-card button:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3; 
+    color: #fff; 
+}
+
+.edit-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.delete-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.delete-button svg {
+    color: red;
+}
+
+.delete-button:hover {
+    background-color: darkred; 
+}
